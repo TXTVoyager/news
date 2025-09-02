@@ -33,7 +33,7 @@ https://
 
 ## 📦 Installation
 # Clone the repository
-git clone https://github.com/yourusername/news-platform.git
+git clone https://github.com/txtasad/news.git
 
 # Navigate into the project folder
 cd news-platform
