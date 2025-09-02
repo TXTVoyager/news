@@ -1,0 +1,409 @@
+/* This css for all authentication page like rester,
+ login, otp,contact etc also Responsive css  */
+.user-account-setting-page {
+  padding-top: 70px;
+}
+/* dropdown menu css */
+.nave-dropdown-menu li {
+  list-style: none;
+  margin-left: -31px;
+  line-height: 35px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.nave-dropdown-menu li a {
+  color: #000000;
+  font-size: 12px;
+}
+.nave-dropdown-menu li a:hover {
+  color: #000000;
+}
+.nave-dropdown-menu li svg {
+  margin-right: 10px;
+  color: #000000;
+  font-size: 20px;
+}
+.nave-dropdown-menu li:hover {
+  background-color: #2f275c17;
+}
+
+.auth-section {
+  height: 100vh;
+  position: relative;
+}
+.logout-icon {
+  margin-right: 10px;
+}
+.login-logo {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.login-logo img {
+  padding-top: 50px;
+  max-width: 100%;
+  width: 400px;
+}
+.auth-section::before,
+.auth-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+}
+.auth-section::before {
+  left: 0;
+  background: #0a0527;
+  z-index: -1;
+  background-size: cover;
+}
+
+.auth-section::after {
+  right: 0;
+  background-color: #fff !important;
+  z-index: -1;
+  background-size: cover;
+}
+
+.login-section-right {
+  padding-top: 180px;
+}
+
+.login-top-title h2 {
+  color: #0c0c0c;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 37.858px;
+  padding-bottom: 10px;
+}
+.login-top-title h4 {
+  color: #5d5d5d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.405px;
+  padding-bottom: 30px;
+  padding-right: 150px;
+}
+.google-button {
+  margin-bottom: 10px;
+}
+.google-button svg {
+  font-size: 40px;
+  padding-right: 10px;
+}
+.google-button button {
+  width: 100%;
+  border: none;
+  background-color: #f4f2ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #414357;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.line-text {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.line-text::before,
+.line-text::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #cfd0d5;
+  margin: 0 10px;
+  margin-top: -10px;
+}
+
+.login-input-field input {
+  background-color: #f4f2ff;
+  border: none;
+  width: 100%;
+  margin-bottom: 30px;
+  outline: none;
+  line-height: 50px;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+
+.login-button button {
+  color: #fff;
+  display: flex;
+  width: 100%;
+  height: 54px;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 3.966px;
+  background: var(--bg-color);
+  margin-bottom: 20px;
+  border: none;
+}
+.login-sign-up-text span {
+  color: #5d5d5d;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+}
+.forget-password-link {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  text-decoration: none;
+}
+.sign-up-link {
+  color: #e223cf;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13px;
+  text-decoration: none;
+}
+.checkout-section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.checkout-section h4 {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+}
+/* contact page css */
+.contact-page-section {
+  padding-top: 180px;
+  padding-bottom: 140px;
+  position: relative;
+}
+.light-theme .contact-section-left {
+  background-color: #000a8f31;
+}
+.contact-section-left {
+  padding: 60px;
+  padding-right: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.192);
+  border-radius: 15px;
+}
+
+.contact-page-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: url(../AllImage/HomeImage/HeroImage/blur-right-hero.png);
+  background-repeat: no-repeat;
+  background-position: 1100px -400px;
+}
+.contact-top-title h2 {
+  font-family: Inter;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60.5px;
+  background: var(--bg-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact-top-title p {
+  color: #cacaca;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 20px;
+}
+.contact-page-textarea textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 150px;
+  background-color: #f4f2ff;
+}
+.contact-information {
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  background-color: #1e1b31;
+  margin-top: 185px;
+}
+.contact-information h3 {
+  color: #ffeaea;
+  font-size: 25px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.contact-information svg {
+  font-size: 30px;
+  color: #fff;
+}
+.contact-information p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 10px;
+}
+.contact-information h5 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+.contact-item p {
+  color: #fff !important;
+}
+.contact-item {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1440px) {
+  .auth-section {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .login-section {
+    height: 100vh;
+  }
+  .forgat-section {
+    height: 100vh;
+  }
+}
+@media (max-width: 1200px) {
+  .contact-page-section::before {
+    background-position: -250px 550px;
+  }
+  .contact-page-section::after {
+    background-position: 350px -300px;
+  }
+  .contact-information {
+    padding-left: 10px;
+    margin-top: 247px;
+  }
+  .contact-information h3 {
+    padding-left: 12px;
+  }
+}
+@media (max-width: 1024px) {
+  .auth-section {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .forgat-section {
+    height: 100vh;
+  }
+  .login-section {
+    height: 100vh;
+  }
+}
+@media (max-width: 992px) {
+  .contact-information {
+    margin-top: 65px;
+    padding-left: 50px;
+  }
+  .contact-page-section::before {
+    background-position: -350px 1100px;
+  }
+  .contact-page-section::after {
+    background-position: 350px -300px;
+  }
+  .contact-section-left {
+    padding-right: 0px;
+  }
+  .login-section-left {
+    display: none;
+  }
+  .auth-section::before {
+    background: #fff;
+  }
+}
+@media (max-width: 768px) {
+  .auth-section {
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    height: auto;
+  }
+  .auth-section::before {
+    display: none;
+  }
+  .login-section-left {
+    display: none;
+  }
+  .login-section-right {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .contact-information {
+    margin-top: 65px;
+  }
+  .forgat-section {
+    height: 100vh;
+  }
+  .contact-page-section::before {
+    background-position: center 1100px;
+  }
+  .contact-page-section::after {
+    background-position: -100px -200px;
+  }
+  .contact-section-left {
+    padding-right: 0px;
+  }
+  .contact-top-title h2 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 37px;
+  }
+  .contact-top-title h4 {
+    text-align: center;
+  }
+}
+@media (max-width: 425px) {
+  .auth-section {
+    height: auto;
+    background-color: #ffffff;
+  }
+  .login-section-right {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .login-top-title h4 {
+    padding-right: 40px;
+  }
+  .forgat-section {
+    height: 100vh;
+  }
+  .contact-page-section::before {
+    background-position: -600px 1200px;
+  }
+}

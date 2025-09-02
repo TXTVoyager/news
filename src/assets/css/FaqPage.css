@@ -1,0 +1,40 @@
+.light-theme .faq-page-admin-css {
+  background: rgba(68, 0, 255, 0);
+  border: 1px solid rgba(153, 0, 255, 0.267);
+}
+.dark-theme .faq-page-admin-css {
+  background: rgba(121, 121, 121, 0.267);
+  border: 1px solid rgba(165, 165, 165, 0.171);
+}
+.faq-page-admin-css {
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  padding-left: 20px;
+  box-shadow: var(--box-shadow);
+}
+.faq-text-section p {
+  font-size: 16px;
+}
+.faq-admin-icon {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.faq-admin-icon ul {
+  list-style: none;
+  display: flex;
+}
+.faq-admin-icon ul li {
+  margin-left: 15px;
+}
+.light-theme .faq-admin-icon ul li svg {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.dark-theme .faq-admin-icon ul li svg {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}

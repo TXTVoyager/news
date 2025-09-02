@@ -1,0 +1,475 @@
+/* This css for home page section AI Content and user
+ dashboard text to article and chat card design */
+
+/*dynamic card class */
+.nav-tabs {
+  justify-content: left !important;
+}
+.nav-tabs .nav-link {
+  font-size: 14px !important;
+  border-radius: 30px !important;
+}
+.nav-tabs .nav-link:hover {
+  font-size: 14px !important;
+  border-radius: 30px !important;
+  background: var(--bg-color);
+  color: #fff !important;
+}
+.nav-tabs .nav-link.active {
+  background: var(--bg-color);
+  border-radius: 30px;
+  color: #fff !important;
+}
+.card-text-assistant {
+  text-align: center;
+}
+
+.card_Free .card-photo-item-assistant i {
+  width: 100%;
+  height: 200px;
+  padding-top: 50px;
+  font-size: 100px;
+  border-radius: 15px;
+}
+.card_Premium .card-photo-item-assistant i {
+  width: 100%;
+  height: 200px;
+  padding-top: 50px;
+  font-size: 100px;
+  border-radius: 15px;
+}
+
+.card_VIP .card-photo-item-assistant i {
+  width: 100%;
+  height: 200px;
+  padding-top: 50px;
+  font-size: 100px;
+  border-radius: 15px;
+
+  border: 1px solid rgba(4, 0, 255, 0.24);
+}
+.card_VIP .card-photo-item-assistant i {
+  color: #1505f7;
+}
+
+.card_Premium .card-photo-item-assistant i {
+  color: #aa05f7;
+}
+
+.card_Free .card-photo-item-assistant i {
+  color: #02817b;
+}
+
+.card_Free .chatbot-brand-icon-section {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  overflow: hidden;
+  display: flex;
+  font-weight: 700;
+  padding: 1px 10px;
+  border: 1px solid #02817b;
+  border-radius: 20px;
+  color: #ffffff;
+  box-shadow: var(--box-shadow);
+}
+
+.card_VIP .chatbot-brand-icon-section,
+.card_Premium .chatbot-brand-icon-section {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-weight: 700;
+  overflow: hidden;
+  display: flex;
+  padding: 1px 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  border: 1px solid rgb(204, 0, 255);
+  box-shadow: var(--box-shadow);
+}
+.card_VIP .chatbot-brand-icon-section i,
+.card_Premium .chatbot-brand-icon-section i {
+  font-size: 15px !important;
+  color: rgb(216, 0, 0);
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.chatbot-brand-icon-section p {
+  font-size: 12px;
+  padding-top: 5px;
+  margin-bottom: 1px;
+  font-weight: 700;
+}
+
+.chatbot-brand-icon-section i {
+  font-size: 14px;
+  margin-right: 4px;
+  margin-top: -35px;
+}
+
+.card_VIP .dashboard-card-assistant-brand-icon,
+.card_Premium .dashboard-card-assistant-brand-icon {
+  top: 40px;
+  height: 20px;
+  font-weight: 700;
+  background: #f4e4ff;
+  overflow: hidden;
+  padding: 2px 8px;
+  border-radius: 20px;
+  color: #000000;
+  box-shadow: var(--box-shadow);
+}
+
+.card_Free .dashboard-card-assistant-brand-icon {
+  top: 40px;
+  height: 20px;
+  font-weight: 700;
+  background: #d3fffd;
+  overflow: hidden;
+  padding: 2px 10px;
+  border-radius: 20px;
+  color: #000000;
+  box-shadow: var(--box-shadow);
+}
+
+.home-card-Free .card-photo-item i {
+  font-size: 25px;
+  background: #054d5ce6;
+  color: #013749;
+  padding-left: 13px;
+  padding-top: 13px;
+}
+
+.home-card-Premium .card-text-home h1,
+.home-card-Free .card-text-home h1 {
+  font-weight: 700;
+}
+
+.home-card-Premium {
+  border: 1px solid rgba(157, 0, 255, 0.398);
+  padding: 20px 30px;
+  border-radius: 15px;
+  background: #a722ff29;
+}
+.home-card-Free {
+  border: 1px solid #1caebb60;
+  padding: 20px 30px;
+  border-radius: 15px;
+  background: #a5f1ff40;
+}
+.home-card-Premium .card-photo-item i {
+  background: #be7dff;
+  color: #20003dfc;
+  font-size: 25px;
+  padding-left: 13px;
+  padding-top: 13px;
+}
+.card-text-home h1 {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130.5%;
+}
+.card-text-home p {
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding-bottom: 30px;
+}
+.home-card-Premium .card-text-home p {
+  color: #c7c6c6;
+}
+.home-card-Free .card-text-home p {
+  color: #e2e2e2;
+}
+.card_Premium .card-photo-item i {
+  font-size: 25px;
+  color: #ea34fb;
+  padding-left: 13px;
+  padding-top: 13px;
+  background: #efbeff;
+}
+.card_Free {
+  padding: 20px;
+  border-radius: 15px;
+}
+.card_VIP {
+  border: 1px solid rgb(0, 47, 255);
+  padding: 20px;
+  border-radius: 15px;
+}
+.card_Premium {
+  border: 1px solid rgb(157, 0, 255);
+  padding: 20px;
+  border-radius: 15px;
+}
+.card_Free .card-photo-item i {
+  font-size: 25px;
+  color: #346cfb;
+  padding-left: 13px;
+  padding-top: 13px;
+  background: #d7e3ff;
+}
+.cart-icon-header-section {
+  display: flex;
+  justify-content: space-between;
+}
+.custom-cart {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.custom-cart:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.card-photo {
+  margin-top: 13px;
+  margin-left: 12px;
+  width: 24px;
+  height: 24px;
+  border: none;
+}
+.card-text-home {
+  position: relative;
+  padding-top: 20px;
+}
+
+.card-text {
+  position: relative;
+}
+
+.card-text h2 {
+  color: #1b1b1b;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130.5%;
+}
+
+.card-text p {
+  color: #2e2e2e;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  padding-bottom: 30px;
+}
+
+.home-card-Free .card-text-home .template-brand-icon-section,
+.home-card-Premium .card-text-home .template-brand-icon-section {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  display: flex;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 1px 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.home-card-Free .card-text-home .template-brand-icon-section {
+  background: #051b1a;
+  color: #013749;
+}
+
+.home-card-Premium .card-text-home .template-brand-icon-section {
+  background: #d8b7ff;
+  color: #070707fc;
+}
+
+.home-card-Free .card-text-home .template-brand-icon-section i {
+  padding-right: 4px;
+}
+.home-card-Premium .card-text-home .template-brand-icon-section i {
+  padding-right: 4px;
+}
+
+.home-card-Premium .card-text-home .brand-icon-section {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(184, 5, 255, 0.566);
+  overflow: hidden;
+  display: flex;
+  padding: 1px 10px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+.home-card-Free .template-brand-icon-section {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(133, 20, 255, 0.879);
+  overflow: hidden;
+  display: flex;
+  padding: 1px 10px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+.home-card-VIP .template-brand-icon-section,
+.home-card-Premium .template-brand-icon-section {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(133, 20, 255, 0.879);
+  overflow: hidden;
+  display: flex;
+  padding: 1px 10px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+/* this css for dashboard card */
+.card_VIP .card-text .brand-icon-section,
+.card_Free .card-text .brand-icon-section,
+.card_Premium .card-text .brand-icon-section {
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  overflow: hidden;
+  display: flex;
+  padding: 1px 10px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+.unlock-assistant {
+  color: rgb(11, 177, 33);
+  font-size: 15px !important;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.card_Free .card-text .brand-icon-section {
+  background-color: rgba(20, 20, 182, 0.879);
+}
+.card_VIP .card-text .brand-icon-section,
+.card_Premium .card-text .brand-icon-section {
+  background-color: rgb(121, 0, 201);
+}
+
+.favorite-col {
+  margin-left: 0 !important;
+}
+.header {
+  --cui-header-divider-border: 1px solid rgba(92, 90, 90, 0.685) !important;
+  --cui-header-border: 1px solid rgba(92, 90, 90, 0.685) !important;
+}
+
+.card-header {
+  border-bottom: 1px solid rgba(92, 90, 90, 0.685) !important;
+}
+.card-button-section svg {
+  color: #a30b00;
+  font-size: 25px;
+}
+.card-text .brand-icon-section i {
+  font-size: 14px;
+  color: #fff;
+}
+.card-text .brand-icon-section .brand-icon-text {
+  font-size: 12px;
+  padding-top: 4px;
+  padding-left: 5px;
+  font-weight: 700;
+  color: #fff;
+}
+.card-text-template {
+  position: relative;
+}
+.card-text-template h1 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.card_Premium .dashboard-card-template-brand-icon {
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  background-color: rgba(133, 20, 255, 0.879);
+  overflow: hidden;
+  padding: 3px 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  box-shadow: var(--box-shadow);
+}
+.dashboard-card-template-brand-icon {
+  font-size: 12px;
+}
+.dashboard-card-template-brand-icon i {
+  font-size: 12px;
+  margin-right: 5px;
+}
+.card_Free .dashboard-card-template-brand-icon {
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  background-color: rgba(20, 90, 255, 0.879);
+  overflow: hidden;
+
+  padding: 3px 10px;
+  border-radius: 20px;
+  color: #ffffff;
+  box-shadow: var(--box-shadow);
+}
+
+.ag-courses-item_link:link {
+  text-decoration: none;
+}
+.card-photo-item i {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.article-tooltip-icon {
+  padding: 5px !important;
+}
+.article-tooltip-icon .btn-primary {
+  background-color: #01051a;
+}
+.article-tooltip-icon .btn-primary:hover {
+  background-color: #01051a;
+}
+.article-generate-section .nav-link svg {
+  color: #fff !important;
+  font-size: 20px !important;
+}
+@media only screen and (max-width: 979px) {
+  .ag-courses-item_title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+}
+@media only screen and (max-width: 639px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .ag-courses-item_title {
+    min-height: 72px;
+    line-height: 1;
+
+    font-size: 24px;
+  }
+  .ag-courses-item_date-box {
+    font-size: 16px;
+  }
+}
