@@ -28,7 +28,7 @@
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-https://txtviews.com
+https://
 ---
 
 ## 📦 Installation
