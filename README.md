@@ -33,7 +33,7 @@ https://
 
 ## 📦 Installation
 # Clone the repository
-git clone https://github.com/txtasad/news.git
+[git clone https://github.com/TXTVoyager/news.git](https://github.com/TXTVoyager/news.git)
 
 # Navigate into the project folder
 cd news-platform
